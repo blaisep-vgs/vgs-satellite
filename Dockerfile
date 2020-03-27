@@ -12,4 +12,6 @@ RUN npm run init
 
 COPY . .
 
+RUN cd ./client && npm run build && cd ../
+
 CMD ["npm", "start"]
