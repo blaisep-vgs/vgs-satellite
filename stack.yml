@@ -1,10 +1,10 @@
 version: 1.0
 provider:
   name: openfaas
-  gateway: http://127.0.0.1:8080
+  gateway: https://gateway.ofc.do.controlplane.info
 functions:
   satellite:
-    lang: dockerfile
-    handler: ./satellite
-    image: satellite:latest
+    lang: node10-express
+    handler: ./server/app.js
+    image: registry.digitalocean.com/do-good-images/satellite:latest
 
