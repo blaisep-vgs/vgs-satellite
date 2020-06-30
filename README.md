@@ -6,6 +6,7 @@
 <a href="https://badge.fury.io/js/%40vgs%2Fvgs-satellite"><img src="https://img.shields.io/npm/dw/@vgs/vgs-satellite?style=flat-square" alt="npm-downloads"></a>
 <a href="https://opensource.org/licenses/ISC"><img src="https://img.shields.io/npm/l/@vgs/vgs-satellite?style=flat-square" alt="NPM"></a>
 </p>
+[![OpenFaaS](https://img.shields.io/badge/openfaas-cloud-blue.svg)](https://www.openfaas.com)
 
 
 <!-- toc -->
